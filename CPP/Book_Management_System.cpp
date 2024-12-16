@@ -21,7 +21,7 @@ class Book {
         price = d;
     };
 
-    void displayDetails(int i) {
+    void displayDetails() {
         cout << "\nID: " << id << "\nTitle: " << title << "\nAuthor: " << author << "\nPrice: " << price << "\n";
     };
 };
@@ -46,7 +46,7 @@ int main() {
     cout << "\nBOOK DETAILS:";
 
     for (int i = 0; i < n; i++) {
-        b[i].displayDetails(n);
+        b[i].displayDetails();
     }
 
     return 0;
